@@ -13,6 +13,7 @@ import java.io.IOException;
   * <p>
   * Tenga en cuenta que la aplicación RoadRunner Tracker requiere que esté conectado a wifi. Eso
   * no funcionará con datos móviles.
+  * @see Dinamita
   *
   * @version 2.0
   * @since 1.3
@@ -77,6 +78,7 @@ public class Smartphone {
          * @param voltage indica el número de voltios que se enviarán al cuerpo del correcaminos
          * @throws IOException lanza excepción si no se introduce un valor entero para el numero de voltios
          * @see prepareTrap
+         * para conocer otras formas de matar al correcaminos consulte los metodos de {@link Dinamita}
          */
 	public void zapRoadRunner(int voltage) throws IOException {
 		if (voltage < 31) {

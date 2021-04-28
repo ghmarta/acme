@@ -2,8 +2,16 @@ package acme;
 
 import java.io.IOException;
 
+/**
+ * clase persecusion
+ * @author 1DAW-A
+ */
 public class Persecucion {
-
+/**
+ * main
+ * @param args
+ * @throws IOException 
+ */
 	public static void main(String[] args) throws IOException {
 		
 		// Primero inicializamos un smartphone ACME con un código de licencia válido
